@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+
+body h1,
+body h2 {
+  font-family: "Pirata One", system-ui;
+}
+
+body h3 {
+  font-family: "Lobster", sans-serif;
+}
+
+body p {
+  font-family: "Coming Soon", cursive;
+}
+
+body a,
+body input,
+body textarea {
+  font-family: "Raleway", sans-serif;
+}
+
+/*Começo do Cabeçalho */
+
+header {
+  padding: 16px 0;
+  background-color: #ffd700;
+  color: #000;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo-title img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.logo-title h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*Fim do Cabeçalho */
+/*Começo Seção Sobre*/
+
+section {
+  padding: 24px;
+  color: #000000;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+.onepiece-background {
+  margin-right: 32px;
+  height: 360px;
+}
+
+section h2 {
+  margin-bottom: 24px 0;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.streaming-list img {
+  height: 32px;
+}
+
+.streaming-list li {
+  display: inline;
+}
+
+/*Fim Seção Sobre*/
+/*Seção Personagens*/
+
+#characters {
+  padding: 40px 0;
+  background-color: #f0f0f0;
+  align-items: center;
+}
+
+#characters .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#characters h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  margin: 10px;
+  padding: 16px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 12px 0 8x 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/*Fim Seção Personagens*/
+/*Seção Contato*/
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form textarea {
+  resize: none;
+  height: 140px;
+}
+
+form button {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ffea71;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #ffd700;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 14px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+/*Fim Seção Contato*/
+/* Rodapé */
+
+footer {
+  background-color: #ffd700;
+  color: #000;
+  padding: 16px 0;
+}
